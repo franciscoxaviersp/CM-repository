@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="2"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Name: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="30sp" />
+
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:gravity="center"
+        android:hint="Name"
+        android:minHeight="48dp"
+        android:paddingTop="1dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="2"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Number: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edtPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:gravity="center"
+        android:hint="Number"
+        android:minHeight="48dp"
+        android:paddingTop="1dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="25sp" />
+
+</LinearLayout>
